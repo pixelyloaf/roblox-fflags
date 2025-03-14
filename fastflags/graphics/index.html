@@ -10,24 +10,24 @@
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Quality Of Life</title>
-    <meta name="title" content="Quality Of Life">
-    <meta name="description" content="setting this to True will not do anything">
+    <title>Graphics</title>
+    <meta name="title" content="Graphics">
+    <meta name="description" content="only applies to games with the default skybox">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://pixelyloaf.github.io/roblox-fflags/fastflags/quality-of-life/">
+    <link rel="canonical" href="https://pixelyloaf.github.io/roblox-fflags/fastflags/graphics/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pixelyloaf.github.io/roblox-fflags/fastflags/quality-of-life/">
-    <meta property="og:title" content="Quality Of Life">
-    <meta property="og:description" content="setting this to True will not do anything">
+    <meta property="og:url" content="https://pixelyloaf.github.io/roblox-fflags/fastflags/graphics/">
+    <meta property="og:title" content="Graphics">
+    <meta property="og:description" content="only applies to games with the default skybox">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pixelyloaf.github.io/roblox-fflags/fastflags/quality-of-life/">
-    <meta property="twitter:title" content="Quality Of Life">
-    <meta property="twitter:description" content="setting this to True will not do anything">
+    <meta property="twitter:url" content="https://pixelyloaf.github.io/roblox-fflags/fastflags/graphics/">
+    <meta property="twitter:title" content="Graphics">
+    <meta property="twitter:description" content="only applies to games with the default skybox">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -224,34 +224,34 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="quality-of-life" class="break-words">
+<doc-anchor-target id="graphics" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#quality-of-life">#</doc-anchor-trigger>
-        <span>Quality Of Life</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#graphics">#</doc-anchor-trigger>
+        <span>Graphics</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="disable-notifications">
+<doc-anchor-target id="pause-voxelizerdisable-baked-shadows">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-notifications">#</doc-anchor-trigger>
-        <span>Disable Notifications</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pause-voxelizerdisable-baked-shadows">#</doc-anchor-trigger>
+        <span>Pause voxelizer/Disable baked shadows</span>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagToastNotificationsProtocolEnabled2&quot;: &quot;False&quot;
+    &quot;DFFlagDebugPauseVoxelizer&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="disable-vc">
+<doc-anchor-target id="grey-sky">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-vc">#</doc-anchor-trigger>
-        <span>Disable VC</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#grey-sky">#</doc-anchor-trigger>
+        <span>Grey sky</span>
     </h3>
 </doc-anchor-target>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -260,116 +260,53 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p>setting this to <code v-pre>True</code> will not do anything</p>
+            <h5>Important</h5>
+<p>only applies to games with the default skybox</p>
         </div>
     </div>
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFFlagVoiceChat4&quot;: &quot;False&quot;
+    &quot;FFlagDebugSkyGray&quot;: &quot;True&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="disable-telemetry">
+<doc-anchor-target id="lower-quality-textures">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-telemetry">#</doc-anchor-trigger>
-        <span>Disable Telemetry</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lower-quality-textures">#</doc-anchor-trigger>
+        <span>Lower quality textures</span>
     </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDebugDisableTelemetryEphemeralCounter&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryEphemeralStat&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryEventIngest&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryPoint&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryV2Counter&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryV2Event&quot;: &quot;True&quot;,
-    &quot;FFlagDebugDisableTelemetryV2Stat&quot;: &quot;True&quot;
+    &quot;DFIntPerformanceControlTextureQualityBestUtility&quot;: &quot;-1&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="disable-fulscreen-title-bar">
+<doc-anchor-target id="frame-buffer">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-fulscreen-title-bar">#</doc-anchor-trigger>
-        <span>Disable fulscreen title bar</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="automatically-unmute-mic-vc">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#automatically-unmute-mic-vc">#</doc-anchor-trigger>
-        <span>Automatically unmute mic (VC)</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDebugDefaultChannelStartMuted&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="party-to-roblox-chat">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#party-to-roblox-chat">#</doc-anchor-trigger>
-        <span>Party to Roblox Chat</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagAppChatRebrandStringUpdates&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="remove-translated-supported-message">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#remove-translated-supported-message">#</doc-anchor-trigger>
-        <span>Remove translated supported message</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frame-buffer">#</doc-anchor-trigger>
+        <span>Frame buffer</span>
     </h3>
 </doc-anchor-target>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-green-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
                 </g></g>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><code v-pre>&quot;Roblox automatically translates supported languages in chat.&quot;</code></p>
+            <h5>Tip</h5>
+<p>0 makes white screen | 1-3 makes other players have laggy movement | 4 is stable with better performance than 10</p>
         </div>
     </div>
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagChatTranslationEnableSystemMessage&quot;: false
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="disable-ads">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-ads">#</doc-anchor-trigger>
-        <span>Disable ads</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="unlimited-fps-unlocker">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#unlimited-fps-unlocker">#</doc-anchor-trigger>
-        <span>Unlimited FPS unlocker</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;,
-    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;
+    &quot;FIntTerrainArraySliceSize&quot;: &quot;4&quot;
 }</code></pre>
 </doc-codeblock></div>
 
@@ -381,20 +318,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fastflags/graphics/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fastflags/lighting/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Graphics</span>
+                                                <span class="block mt-1">Lighting</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../fastflags/audio/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../fastflags/quality-of-life/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Audio Related</span>
+                                                <span class="block mt-1">Quality Of Life</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -438,6 +375,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Quality Of Life", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Graphics", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

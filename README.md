@@ -1,5 +1,7 @@
 # new repo
 
+# being worked on again, rewriting everything
+
 click [here](https://github.com/venkeyz/roblox-fflags)
 
 # roblox-fflags
